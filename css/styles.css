@@ -694,6 +694,10 @@ img {
   border-color: #4d5ae5;
 }
 
+.input-wrap {
+  margin-bottom: 16px;
+}
+
 .textarea-text {
   padding: 8px 16px;
   font-size: 12px;
@@ -734,9 +738,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
 }
 
 .label-checkbox span {
@@ -747,15 +748,12 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
 
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.svg-checkbox {
-  display: inline-flex;
 }
 
 .input-checkbox:checked + .label-checkbox span {
