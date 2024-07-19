@@ -449,12 +449,13 @@
         <div class="footer-subscribe">
           <p class="footer-text">Subscribe</p>
           <form class="subscribe-form">
-            <label for="email-footer">
+            <label for="email-footer" class="label-sub">
               <input
                 type="email"
                 class="input-footer"
                 id="email-footer"
                 placeholder="E-mail"
+                name="email-sub"
               />
             </label>
             <button class="btn-subscribe" type="submit">
@@ -529,11 +530,10 @@
           </div>
 
           <div class="input-wrapper">
-            <label for="comment" class="form-label">Comment</label>
+            <label for="user-comment" class="form-label">Comment</label>
             <textarea
-              name="comment"
-              id="comment"
-              row="5"
+              name="user-comment"
+              id="user-comment"
               class="textarea-text"
               placeholder="Text input"
             ></textarea>
@@ -541,13 +541,13 @@
 
           <div class="checkbox">
             <input
-              id="user-privasy"
+              id="user-privacy"
               class="visually-hidden input-checkbox"
               type="checkbox"
-              name="user-privasy"
+              name="user-privacy"
               value="true"
             />
-            <label for="user-privasy" class="label-checkbox">
+            <label for="user-privacy" class="label-checkbox">
               <span class="svg-checkbox">
                 <svg class="icon-checkbox" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
